@@ -86,22 +86,4 @@ if(!$found)
 else {
   header("Location: winners.php");
 }
-
-/*for ($index = 1; $index < count($codes); $index++) {
-    $line=explode(",", $codes[$index]);
-    echo $line[1]."</br>";
-}*/
-//print_r(in_array("123478", $Lead));
 ?>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
-</html>
