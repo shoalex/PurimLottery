@@ -1,0 +1,82 @@
+/* CSS Document for purim PlayStation party */
+
+
+* { margin: 0; padding: 0; }
+a img{border:none}
+img
+{  border-style: none;
+}
+*:focus {
+    outline: 1;
+}
+body, html {
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+}
+
+
+#MainDiv {
+    display: table;
+    width: 100%;
+    position: relative;
+    min-height: 843px;
+    background-image: url(../images/mobile_landing.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 50%; */
+}
+form#jetform {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+#jf-err{
+  color:red;
+  font-weight: 600;
+}
+div#thankYouBlock {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    display: none;
+}
+#thankYouBlock p{
+  background: #5E77E5;
+  font-weight: 600;
+  font-size: 29px;
+
+}
+.go-to-lottery {
+    right: 0;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    text-align: center;
+    /* color: #fff; */
+}
+.go-to-lottery a{
+  color:#fff;
+  font-size: 22px;
+}
+
+/*************ADMIN***************/
+.file-upload-wrap{
+  padding-top: 5%;
+}
+.show-winners a{
+  font-weight: 600;
+}
+.return-to-hag {
+    margin-bottom: 15px;
+}
+.err{
+  font-weight: 600;
+}
