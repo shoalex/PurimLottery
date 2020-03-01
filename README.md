@@ -1,7 +1,7 @@
 # PurimLottery
 
 The project was created for a Purim party lottery.
-What is special about this project make csv fie that support UTF-8 and build pnly for mobile
+What is special about this project make csv fie that support UTF-8 and build only for mobile
 # Languages
 - HTML
 - CSS
